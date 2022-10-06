@@ -29,6 +29,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 SET(CMAKE_DEBUG_POSTFIX "_d")
 
+# My changes start
+set(CMAKE_CUDA_ARCHITECTURES 52)
+# My changes end
+
 set (INCLUDE_HEADERS
 	include/PointSet.h
 	include/ActivationTable.h
